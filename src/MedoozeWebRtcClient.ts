@@ -4,7 +4,7 @@ import {
 	Transport,
 } from "@spacebarchat/medooze-media-server";
 import type { ClientEmitter, SSRCs, WebRtcClient } from "@spacebarchat/spacebar-webrtc-types";
-import { VoiceRoom } from "./VoiceRoom";
+import { VoiceRoom } from "./VoiceRoom.js";
 import { EventEmitter } from "events";
 
 export class MedoozeWebRtcClient implements WebRtcClient<any> {

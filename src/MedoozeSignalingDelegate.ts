@@ -1,14 +1,18 @@
 import { CodecInfo, MediaInfo, SDPInfo } from "semantic-sdp";
 import type { SignalingDelegate, Codec, WebRtcClient } from "@spacebarchat/spacebar-webrtc-types";
 import { MediaServer, Endpoint } from "@spacebarchat/medooze-media-server";
-import { VoiceRoom } from "./VoiceRoom";
-import { MedoozeWebRtcClient } from "./MedoozeWebRtcClient";
+import { VoiceRoom } from "./VoiceRoom.js";
+import { MedoozeWebRtcClient } from "./MedoozeWebRtcClient.js";
 
 export class MedoozeSignalingDelegate implements SignalingDelegate {
 	private _rooms: Map<string, VoiceRoom> = new Map();
 	private _ip: string;
 	private _port: number;
 	private _endpoint: Endpoint;
+
+	constructor() {
+
+	}
 
 	public start(public_ip: string, portMin: number, portMax: number): Promise<void> {
 		MediaServer.enableLog(true);

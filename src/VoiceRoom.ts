@@ -1,10 +1,10 @@
-import { MedoozeSignalingDelegate } from "./MedoozeSignalingDelegate";
+import { MedoozeSignalingDelegate } from "./MedoozeSignalingDelegate.js";
 import {
     IncomingStreamTrack,
     SSRCs,
     Transport,
 } from "@spacebarchat/medooze-media-server";
-import { MedoozeWebRtcClient } from "./MedoozeWebRtcClient";
+import { MedoozeWebRtcClient } from "./MedoozeWebRtcClient.js";
 import { StreamInfo } from "semantic-sdp";
 
 export class VoiceRoom {

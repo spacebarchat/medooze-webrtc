@@ -1,3 +1,3 @@
-import { MedoozeSignalingDelegate } from "./MedoozeSignalingDelegate";
+import { MedoozeSignalingDelegate } from "./MedoozeSignalingDelegate.js";
 
 export default MedoozeSignalingDelegate;
