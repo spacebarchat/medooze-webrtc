@@ -16,13 +16,13 @@
         "build": "tsc"
     },
     "dependencies": {
-        "@spacebarchat/medooze-media-server": "^1.156.6",
+        "@spacebarchat/medooze-media-server": "^1.156.8",
         "semantic-sdp": "^3.31.1"
     },
     "devDependencies": {
         "@spacebarchat/spacebar-webrtc-types": "^1.0.1",
         "@types/node": "^20.17.1",
-        "typescript": "^5.6.3"
+        "typescript": "^5.9.3"
     },
     "peerDependencies": {
         "@spacebarchat/spacebar-webrtc-types": "^1.0.1"
