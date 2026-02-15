@@ -1,6 +1,6 @@
 {
     "name": "@spacebarchat/medooze-webrtc",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "description": "A WebRTC server implementation compatible with Spacebar using the Medooze Media server library",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -16,7 +16,7 @@
         "build": "tsc"
     },
     "dependencies": {
-        "@spacebarchat/medooze-media-server": "^1.156.8",
+        "@spacebarchat/medooze-media-server": "^1.156.9",
         "semantic-sdp": "^3.31.1"
     },
     "devDependencies": {
