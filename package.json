@@ -16,7 +16,7 @@
         "build": "tsc"
     },
     "dependencies": {
-        "@spacebarchat/medooze-media-server": "^1.156.9",
+        "@spacebarchat/medooze-media-server": "^1.156.10",
         "semantic-sdp": "^3.31.1"
     },
     "devDependencies": {
